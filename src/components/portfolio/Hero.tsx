@@ -23,7 +23,7 @@ export const Hero = () => {
               Disponível para novos projetos
             </div>
 
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
+            <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-[1.1] tracking-tight">
               Sua visão, minha execução.<br />
               Construindo o futuro do seu negócio através da união estratégica entre{" "}
               <span className="text-gradient">tecnologia, design e marketing</span>.
