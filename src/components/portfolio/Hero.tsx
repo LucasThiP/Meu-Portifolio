@@ -23,14 +23,15 @@ export const Hero = () => {
               Disponível para novos projetos
             </div>
 
-            <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-semibold leading-[1.02] tracking-tight">
-              Transformo ideias em <br />
-              produtos digitais que <span className="text-gradient">vendem</span>.
+            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
+              Sua visão, minha execução.<br />
+              Construindo o futuro do seu negócio através da união estratégica entre{" "}
+              <span className="text-gradient">tecnologia, design e marketing</span>.
             </h1>
 
-            <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-              Desenvolvedor Full Stack <span className="text-foreground/60">|</span> Designer{" "}
-              <span className="text-foreground/60">|</span> Estrategista
+            <p className="mt-8 text-lg sm:text-xl font-light text-muted-foreground max-w-xl leading-loose tracking-wide">
+              Desenvolvedor Full Stack <span className="text-foreground/40">|</span> Designer{" "}
+              <span className="text-foreground/40">|</span> Estrategista
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
