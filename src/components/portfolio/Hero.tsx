@@ -24,24 +24,24 @@ export const Hero = () => {
             </div>
 
             <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-semibold leading-[1.02] tracking-tight">
-              Código, design e <br />
-              estratégia que <span className="text-gradient">convertem</span>.
+              Transformo ideias em <br />
+              produtos digitais que <span className="text-gradient">vendem</span>.
             </h1>
 
             <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-              Sou Alex Rivera — full stack developer, product designer e marketing
-              strategist. Construo produtos digitais que crescem receita e elevam marcas.
+              Desenvolvedor Full Stack <span className="text-foreground/60">|</span> Designer{" "}
+              <span className="text-foreground/60">|</span> Estrategista
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Button size="lg" asChild className="rounded-full group bg-gradient-primary hover:opacity-90 shadow-glow">
-                <a href="#contato">
-                  Iniciar um projeto
+                <a href="#projetos">
+                  Ver Projetos
                   <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </a>
               </Button>
-              <Button size="lg" variant="ghost" asChild className="rounded-full">
-                <a href="#projetos">Ver projetos</a>
+              <Button size="lg" variant="outline" asChild className="rounded-full border-border bg-card/40 backdrop-blur hover:bg-card/70">
+                <a href="#contato">Falar comigo</a>
               </Button>
             </div>
 
