@@ -48,7 +48,7 @@ export const Hero = () => {
 
             <dl className="mt-14 grid grid-cols-3 gap-6 max-w-md">
               {[
-                { k: "8+", v: "anos de experiência" },
+                { k: "6+", v: "anos de experiência" },
                 { k: "60+", v: "produtos lançados" },
                 { k: "3.4×", v: "ROI médio gerado" },
               ].map((s) => (
