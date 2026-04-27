@@ -4,20 +4,20 @@ const services = [
   {
     icon: Code2,
     title: "Desenvolvimento Full Stack",
-    desc: "Aplicações web rápidas, escaláveis e mensuráveis. Stack moderna, código limpo, deploy contínuo.",
-    items: ["React, Next, TypeScript", "APIs e banco de dados", "Performance & SEO técnico"],
+    desc: "Crio sites e sistemas rápidos, modernos e preparados para escalar.\nMais do que código, entrego estrutura sólida para o crescimento do seu negócio.",
+    items: ["Aplicações web e landing pages", "Integrações e automações\n\n", "Performance, SEO técnico e escalabilidade"],
   },
   {
     icon: Palette,
-    title: "Product & Brand Design",
-    desc: "Interfaces minimalistas que comunicam valor em segundos. Design systems escaláveis, prontos para produto.",
-    items: ["UI / UX de produto", "Identidade visual", "Design system"],
+    title: "Design & Identidade",
+    desc: "Desenvolvo interfaces e identidades que posicionam sua marca com clareza e profissionalismo.\nDesign pensado para gerar confiança e conversão.",
+    items: ["UI / UX de produto", "Identidade visual Completa", "Design para produtos digitais"],
   },
   {
     icon: TrendingUp,
-    title: "Estratégia de Marketing",
-    desc: "Posicionamento, aquisição e conversão. Funis orientados a dados, não a achismos.",
-    items: ["Growth & SEO", "Tráfego pago", "CRO & analytics"],
+    title: "Estratégia & Marketing",
+    desc: "Estruturo sua presença digital para atrair, converter e crescer de forma consistente.\nDecisões baseadas em dados, não em achismo.",
+    items: ["SEO e posicionamento no Google", "Estratégias de aquisição", "Otimização de conversão (CRO)"],
   },
 ];
 
@@ -27,8 +27,8 @@ export const Services = () => {
       <div className="container">
         <div className="max-w-2xl mb-16">
           <p className="text-xs uppercase tracking-[0.2em] text-accent mb-4">Serviços</p>
-          <h2 className="font-display text-3xl sm:text-5xl font-semibold leading-tight">
-            Soluções de ponta a ponta.
+          <h2 className="font-display text-3xl font-semibold leading-tight sm:text-4xl">
+            Soluções completas para crescimento digital.
           </h2>
         </div>
 
