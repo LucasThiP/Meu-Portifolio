@@ -26,7 +26,7 @@ export const Process = () => {
                 {s.n}
               </div>
               <h3 className="font-display text-xl font-semibold mb-3">{s.t}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{s.d}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed whitespace-pre-line">{s.d}</p>
             </li>
           ))}
         </ol>
