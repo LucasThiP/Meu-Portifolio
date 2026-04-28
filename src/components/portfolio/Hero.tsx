@@ -42,15 +42,15 @@ export const Hero = () => {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild className="rounded-full border-border bg-card/40 backdrop-blur hover:bg-card/70">
-                <a href="#contato">Falar comigo</a>
+                <a href="#contato">Solicitar Orçamento</a>
               </Button>
             </div>
 
             <dl className="mt-14 grid grid-cols-3 gap-6 max-w-md">
               {[
                 { k: "6+", v: "anos de experiência" },
-                { k: "60+", v: "aumento de conversão" },
-                { k: "+3x", v: "design, tecnologia e estratégia" },
+                { k: "50+", v: "projetos entregues" },
+                { k: "+3x", v: "aumento médio em conversão" },
               ].map((s) => (
                 <div key={s.v}>
                   <dt className="font-display font-semibold text-base">{s.k}</dt>
