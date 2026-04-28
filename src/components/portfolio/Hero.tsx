@@ -1,12 +1,12 @@
 import { ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroVisual from "@/assets/hero-visual.jpg";
+import heroVisual from "@/assets/hero-visual.png";
 
 export const Hero = () => {
   return (
     <section
       id="top"
-      className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden"
+      className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden rounded-2xl opacity-100"
     >
       <div className="absolute inset-0 bg-gradient-radial pointer-events-none" />
       <div className="absolute inset-0 grid-bg opacity-[0.15] pointer-events-none [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_75%)]" />
@@ -49,11 +49,11 @@ export const Hero = () => {
             <dl className="mt-14 grid grid-cols-3 gap-6 max-w-md">
               {[
                 { k: "6+", v: "anos de experiência" },
-                { k: "60+", v: "produtos lançados" },
-                { k: "3.4×", v: "ROI médio gerado" },
+                { k: "60+", v: "aumento de conversão" },
+                { k: "+3x", v: "design, tecnologia e estratégia" },
               ].map((s) => (
                 <div key={s.v}>
-                  <dt className="font-display text-2xl font-semibold">{s.k}</dt>
+                  <dt className="font-display font-semibold text-base">{s.k}</dt>
                   <dd className="text-xs text-muted-foreground mt-1 leading-snug">{s.v}</dd>
                 </div>
               ))}
@@ -69,7 +69,7 @@ export const Hero = () => {
                 alt="Visualização abstrata de uma esfera de dados conectada"
                 width={1024}
                 height={1024}
-                className="relative w-full h-full object-cover rounded-full animate-float"
+                className="relative w-full h-full rounded-full animate-float object-cover border-solid shadow-glow"
               />
               <div className="absolute -bottom-4 -left-4 glass rounded-2xl px-4 py-3 shadow-card flex items-center gap-3 animate-fade-up">
                 <Sparkles className="h-4 w-4 text-accent" />
