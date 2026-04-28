@@ -1,4 +1,4 @@
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroVisual from "@/assets/hero-visual.png";
 
@@ -71,17 +71,6 @@ export const Hero = () => {
                 height={1024}
                 className="relative w-full h-full rounded-full animate-float object-cover border-solid shadow-glow"
               />
-              <div className="absolute -bottom-4 -left-4 glass rounded-2xl px-4 py-3 shadow-card flex items-center gap-3 animate-fade-up">
-                <Sparkles className="h-4 w-4 text-accent" />
-                <div>
-                  <div className="text-xs text-muted-foreground">Lighthouse</div>
-                  <div className="text-sm font-medium">100 / 100</div>
-                </div>
-              </div>
-              <div className="absolute -top-2 -right-2 glass rounded-2xl px-4 py-3 shadow-card animate-fade-up">
-                <div className="text-xs text-muted-foreground">Tempo médio de carga</div>
-                <div className="text-sm font-medium">0.6s</div>
-              </div>
             </div>
           </div>
         </div>
