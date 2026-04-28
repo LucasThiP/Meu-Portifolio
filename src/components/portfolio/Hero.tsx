@@ -49,11 +49,11 @@ export const Hero = () => {
             <dl className="mt-14 grid grid-cols-3 gap-6 max-w-md">
               {[
                 { k: "6+", v: "anos de experiência" },
-                { k: "60+", v: "produtos lançados" },
-                { k: "3.4×", v: "ROI médio gerado" },
+                { k: "60+", v: "aumento de conversão" },
+                { k: "+3x", v: "design, tecnologia e estratégia" },
               ].map((s) => (
                 <div key={s.v}>
-                  <dt className="font-display text-2xl font-semibold">{s.k}</dt>
+                  <dt className="font-display font-semibold text-base">{s.k}</dt>
                   <dd className="text-xs text-muted-foreground mt-1 leading-snug">{s.v}</dd>
                 </div>
               ))}
