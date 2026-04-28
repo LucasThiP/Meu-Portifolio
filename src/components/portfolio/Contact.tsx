@@ -23,7 +23,7 @@ export const Contact = () => {
 
             <div className="space-y-4">
               <a
-                href="mailto:hello@alexrivera.com"
+                href="mailto:ltbrandingtech@gmail.com"
                 className="group flex items-center justify-between rounded-2xl border border-border bg-background/40 p-5 hover:bg-background/80 hover:border-accent/40 transition-all"
               >
                 <div className="flex items-center gap-4">
@@ -32,14 +32,14 @@ export const Contact = () => {
                   </div>
                   <div>
                     <div className="text-xs text-muted-foreground">Email</div>
-                    <div className="text-sm font-medium">hello@alexrivera.com</div>
+                    <div className="text-sm font-medium">ltbrandingtech@gmail.com</div>
                   </div>
                 </div>
                 <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all" />
               </a>
 
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/5531982381046"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-between rounded-2xl border border-border bg-background/40 p-5 hover:bg-background/80 hover:border-accent/40 transition-all"
@@ -50,7 +50,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <div className="text-xs text-muted-foreground">WhatsApp</div>
-                    <div className="text-sm font-medium">+55 00 00000-0000</div>
+                    <div className="text-sm font-medium">+55 31 98238-1046</div>
                   </div>
                 </div>
                 <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all" />
@@ -61,14 +61,14 @@ export const Contact = () => {
                 size="lg"
                 className="w-full rounded-2xl h-14 text-base bg-gradient-primary hover:opacity-90 shadow-glow"
               >
-                <a href="mailto:hello@alexrivera.com?subject=Novo%20projeto">
+                <a href="mailto:ltbrandingtech@gmail.com?subject=Novo%20projeto">
                   Iniciar um projeto
                   <ArrowRight className="ml-1 h-4 w-4" />
                 </a>
               </Button>
 
               <p className="text-xs text-muted-foreground text-center pt-2">
-                Resposta em até 24 horas · Projetos a partir de 30 dias
+                Resposta em até 24 horas · Projetos a partir de 03 dias
               </p>
             </div>
           </div>
