@@ -69,7 +69,7 @@ export const Hero = () => {
                 alt="Visualização abstrata de uma esfera de dados conectada"
                 width={1024}
                 height={1024}
-                className="relative w-full h-full object-cover rounded-full animate-float"
+                className="relative w-full h-full rounded-full animate-float object-cover border-solid shadow-glow"
               />
               <div className="absolute -bottom-4 -left-4 glass rounded-2xl px-4 py-3 shadow-card flex items-center gap-3 animate-fade-up">
                 <Sparkles className="h-4 w-4 text-accent" />
