@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <section
       id="top"
-      className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden"
+      className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden rounded-2xl opacity-100"
     >
       <div className="absolute inset-0 bg-gradient-radial pointer-events-none" />
       <div className="absolute inset-0 grid-bg opacity-[0.15] pointer-events-none [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_75%)]" />
