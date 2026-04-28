@@ -1,4 +1,4 @@
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight, Mail, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Contact = () => {
@@ -33,6 +33,24 @@ export const Contact = () => {
                   <div>
                     <div className="text-xs text-muted-foreground">Email</div>
                     <div className="text-sm font-medium">hello@alexrivera.com</div>
+                  </div>
+                </div>
+                <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all" />
+              </a>
+
+              <a
+                href="https://wa.me/5500000000000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-between rounded-2xl border border-border bg-background/40 p-5 hover:bg-background/80 hover:border-accent/40 transition-all"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-accent/10 text-accent ring-1 ring-accent/20">
+                    <MessageCircle className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <div className="text-xs text-muted-foreground">WhatsApp</div>
+                    <div className="text-sm font-medium">+55 00 00000-0000</div>
                   </div>
                 </div>
                 <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all" />
