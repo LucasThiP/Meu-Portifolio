@@ -9,11 +9,14 @@ export const Process = () => {
   return (
     <section id="processo" className="py-24 sm:py-32">
       <div className="container">
-        <div className="max-w-2xl mb-16">
-          <p className="text-xs uppercase tracking-[0.2em] text-accent mb-4">Processo</p>
-          <h2 className="font-display text-3xl sm:text-5xl font-semibold leading-tight">
-            Simples, rápido, transparente.
+        <div className="text-sm">
+          <p className="text-xs uppercase tracking-[0.2em] text-accent mb-4">PROCESSO</p>
+          <h2 className="font-display text-3xl font-semibold leading-tight sm:text-7xl">
+            Um processo claro, direto ao resultado.
           </h2>
+          <p className="mt-4 text-muted-foreground max-w-2xl mb-16">
+            Sem etapas desnecessárias. Cada fase pensada para gerar resultado.
+          </p>
         </div>
 
         <ol className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-border rounded-2xl overflow-hidden">
