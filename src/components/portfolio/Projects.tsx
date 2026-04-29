@@ -10,6 +10,7 @@ const projects = [
     category: "Sistema Web • Performance • SEO • Geração de Leads",
     metric: "+184% aumento na conversão",
     tags: ["Python & UI/UX", "Geração de Leads", "Alta Performance"],
+    href: "https://lfgestaocontabil.com.br/",
   },
   {
     img: p2,
@@ -17,6 +18,7 @@ const projects = [
     category: "Geração de Leads • Wagtail • Alta Performance",
     metric: "3.2× conversão pós redesign",
     tags: ["Shopify Hydrogen", "Branding", "CRO"],
+    href: undefined as string | undefined,
   },
   {
     img: p3,
@@ -24,6 +26,7 @@ const projects = [
     category: "Fintech · Mobile",
     metric: "120k downloads no Q1",
     tags: ["React Native", "Growth", "Onboarding"],
+    href: undefined as string | undefined,
   },
 ];
 
@@ -47,10 +50,16 @@ export const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-5">
-          {projects.map((p, i) => (
-            <article
+          {projects.map((p, i) => {
+            const Wrapper: any = p.href ? "a" : "article";
+            const wrapperProps = p.href
+              ? { href: p.href, target: "_blank", rel: "noopener noreferrer" }
+              : {};
+            return (
+            <Wrapper
               key={p.title}
-              className={`group relative overflow-hidden rounded-2xl border border-border bg-card/40 ${
+              {...wrapperProps}
+              className={`group relative block overflow-hidden rounded-2xl border border-border bg-card/40 ${
                 i === 0 ? "md:col-span-2" : ""
               }`}
             >
@@ -81,8 +90,9 @@ export const Projects = () => {
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:rotate-12" />
                 </div>
               </div>
-            </article>
-          ))}
+            </Wrapper>
+            );
+          })}
         </div>
       </div>
     </section>
