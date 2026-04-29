@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import p1 from "@/assets/project-contabil.png";
-import p2 from "@/assets/project-2.jpg";
+import p2 from "@/assets/project-witch.png";
 import p3 from "@/assets/project-3.jpg";
 
 const projects = [
@@ -14,10 +14,10 @@ const projects = [
   },
   {
     img: p2,
-    title: "Maison Atelier",
-    category: "Geração de Leads • Wagtail • Alta Performance",
-    metric: "3.2× conversão pós redesign",
-    tags: ["Shopify Hydrogen", "Branding", "CRO"],
+    title: "WHITCH LAB STORE",
+    category: "E-commerce • UX/UI • Desenvolvimento",
+    metric: "Otimizado para aumentar conversão e vendas",
+    tags: ["Python & Django", "Branding", "CRO"],
     href: "https://witchlabstore.com.br/produtos/caneca-teste/",
   },
   {
