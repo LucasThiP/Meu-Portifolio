@@ -90,8 +90,9 @@ export const Projects = () => {
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:rotate-12" />
                 </div>
               </div>
-            </article>
-          ))}
+            </Wrapper>
+            );
+          })}
         </div>
       </div>
     </section>
