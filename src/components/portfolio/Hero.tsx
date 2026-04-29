@@ -49,7 +49,7 @@ export const Hero = () => {
               {[
                 { k: "6+", v: "anos de experiência" },
                 { k: "50+", v: "projetos entregues" },
-                { k: "+3x", v: "Banco de dados" },
+                { k: "+3x", v: "aumento médio em conversão" },
               ].map((s) => (
                 <div key={s.v}>
                   <dt className="font-display font-semibold text-base">{s.k}</dt>
