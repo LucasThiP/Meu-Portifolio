@@ -18,7 +18,7 @@ const projects = [
     category: "Geração de Leads • Wagtail • Alta Performance",
     metric: "3.2× conversão pós redesign",
     tags: ["Shopify Hydrogen", "Branding", "CRO"],
-    href: undefined as string | undefined,
+    href: "https://witchlabstore.com.br/produtos/caneca-teste/",
   },
   {
     img: p3,
