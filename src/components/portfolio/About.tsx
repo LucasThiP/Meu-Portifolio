@@ -24,7 +24,7 @@ export const About = () => {
               Design que posiciona. Tecnologia que sustenta. Estratégia que cresce.
             </p>
             <div className="flex flex-wrap gap-2 pt-4">
-              {["JavaScript", "React", "Next.js", "WordPress", "​Python", "​Python / Django", "HTML ", "CSS", "UX/UI Design", "PhotoShop", "Canva", "SEO", "APIs"].map((tag) => (
+              {["JavaScript", "React", "Next.js", "WordPress", "Python & UI/UX", "Python / Django", "HTML ", "CSS", "Wagtail", "PhotoShop", "Canva", "SEO", "APIs"].map((tag) => (
                 <span
                   key={tag}
                   className="rounded-full border border-border bg-card/40 px-3 py-1 text-xs text-foreground/80"

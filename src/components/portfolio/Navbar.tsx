@@ -34,9 +34,9 @@ export const Navbar = () => {
         >
           <a href="#top" className="flex items-center gap-2 font-display font-semibold">
             <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-gradient-primary text-accent-foreground text-xs">
-              AR
+              LT
             </span>
-            <span className="text-sm tracking-tight">Alex Rivera</span>
+            <span className="text-sm tracking-tight">Lucas Thibau</span>
           </a>
 
           <ul className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">

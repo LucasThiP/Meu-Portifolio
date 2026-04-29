@@ -5,16 +5,16 @@ import p3 from "@/assets/project-3.jpg";
 
 const projects = [
   {
-    img: p1,
-    title: "Northwind Analytics",
-    category: "SaaS · Full Stack",
-    metric: "+184% MRR em 6 meses",
-    tags: ["Next.js", "Postgres", "Design System"],
+    img: "https://d9656d89-1e7d-4119-822d-8733db4a11dc.png",
+    title: "L&F Contábil",
+    category: "Sistema Web • Performance • SEO • Geração de Leads",
+    metric: "+184% aumento na conversão",
+    tags: ["Python & UI/UX", "Geração de Leads", "Alta Performance"],
   },
   {
     img: p2,
     title: "Maison Atelier",
-    category: "E-commerce · Brand",
+    category: "Geração de Leads • UX/UI • Alta Performance",
     metric: "3.2× conversão pós redesign",
     tags: ["Shopify Hydrogen", "Branding", "CRO"],
   },
