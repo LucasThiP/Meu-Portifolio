@@ -5,7 +5,7 @@ import p3 from "@/assets/project-3.jpg";
 
 const projects = [
   {
-    img: "https://d9656d89-1e7d-4119-822d-8733db4a11dc.png",
+    img: p1,
     title: "L&F Contábil",
     category: "Sistema Web • Performance • SEO • Geração de Leads",
     metric: "+184% aumento na conversão",
