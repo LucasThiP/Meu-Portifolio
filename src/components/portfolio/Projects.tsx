@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import p1 from "@/assets/project-1.jpg";
+import p1 from "@/assets/project-contabil.png";
 import p2 from "@/assets/project-2.jpg";
 import p3 from "@/assets/project-3.jpg";
 
