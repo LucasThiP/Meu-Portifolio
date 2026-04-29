@@ -1,11 +1,11 @@
 import { ArrowUpRight } from "lucide-react";
-import p1 from "@/assets/project-1.jpg";
+import p1 from "@/assets/project-contabil.png";
 import p2 from "@/assets/project-2.jpg";
 import p3 from "@/assets/project-3.jpg";
 
 const projects = [
   {
-    img: "https://d9656d89-1e7d-4119-822d-8733db4a11dc.png",
+    img: p1,
     title: "L&F Contábil",
     category: "Sistema Web • Performance • SEO • Geração de Leads",
     metric: "+184% aumento na conversão",
@@ -14,7 +14,7 @@ const projects = [
   {
     img: p2,
     title: "Maison Atelier",
-    category: "Geração de Leads • UX/UI • Alta Performance",
+    category: "Geração de Leads • Wagtail • Alta Performance",
     metric: "3.2× conversão pós redesign",
     tags: ["Shopify Hydrogen", "Branding", "CRO"],
   },
