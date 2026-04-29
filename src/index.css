@@ -47,6 +47,15 @@
                      radial-gradient(at 80% 0%, hsl(260 80% 60% / 0.12) 0px, transparent 50%),
                      radial-gradient(at 0% 100%, hsl(239 84% 50% / 0.10) 0px, transparent 50%);
 
+    /* Hero premium background — Midnight Indigo → Deep Purple */
+    --hero-base: 230 58% 10%;          /* #0B0F2A */
+    --hero-mid: 233 60% 20%;           /* #1A1F4D */
+    --hero-purple: 251 46% 34%;        /* #3B2F80 */
+    --hero-accent: 251 86% 62%;        /* #6C4CF1 */
+    --gradient-hero: radial-gradient(ellipse 90% 70% at 70% 20%, hsl(var(--hero-accent) / 0.28), transparent 55%),
+                     radial-gradient(ellipse 80% 60% at 20% 80%, hsl(var(--hero-purple) / 0.35), transparent 60%),
+                     linear-gradient(135deg, hsl(var(--hero-base)) 0%, hsl(var(--hero-mid)) 55%, hsl(var(--hero-purple) / 0.6) 100%);
+
     /* Shadows */
     --shadow-glow: 0 0 60px -10px hsl(239 84% 60% / 0.5);
     --shadow-soft: 0 8px 30px -8px hsl(240 47% 2% / 0.6);
@@ -114,6 +123,27 @@
       linear-gradient(hsl(var(--border) / 0.4) 1px, transparent 1px),
       linear-gradient(90deg, hsl(var(--border) / 0.4) 1px, transparent 1px);
     background-size: 48px 48px;
+  }
+
+  .bg-hero-premium {
+    background-image: var(--gradient-hero);
+    background-color: hsl(var(--hero-base));
+  }
+
+  /* Subtle SVG noise/grain — overlay blend for depth */
+  .noise-overlay {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.6 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-size: 160px 160px;
+    mix-blend-mode: overlay;
+    opacity: 0.05;
+  }
+
+  /* Diffuse, irregular glow — not a perfect circle */
+  .hero-glow {
+    background: radial-gradient(60% 50% at 55% 45%, hsl(var(--hero-accent) / 0.32), transparent 70%),
+                radial-gradient(45% 65% at 40% 60%, hsl(var(--hero-accent) / 0.22), transparent 75%),
+                radial-gradient(35% 30% at 65% 35%, hsl(260 80% 70% / 0.18), transparent 80%);
+    filter: blur(60px);
   }
 }
 

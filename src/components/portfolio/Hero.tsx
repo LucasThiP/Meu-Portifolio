@@ -6,11 +6,11 @@ export const Hero = () => {
   return (
     <section
       id="top"
-      className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden rounded-2xl opacity-100"
+      className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden rounded-2xl opacity-100 bg-hero-premium"
     >
       <div className="absolute inset-0 bg-gradient-radial pointer-events-none" />
-      <div className="absolute inset-0 grid-bg opacity-[0.15] pointer-events-none [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_75%)]" />
-
+      <div className="absolute inset-0 grid-bg opacity-[0.08] pointer-events-none [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_75%)]" />
+      <div className="absolute inset-0 noise-overlay pointer-events-none" />
       <div className="container relative">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left — content */}
@@ -63,7 +63,7 @@ export const Hero = () => {
           {/* Right — visual */}
           <div className="relative animate-fade-in">
             <div className="relative aspect-square max-w-[560px] mx-auto">
-              <div className="absolute inset-0 rounded-full bg-accent/10 blur-3xl animate-pulse-glow" />
+              <div className="absolute -inset-10 hero-glow pointer-events-none animate-pulse-glow" />
               <img
                 src={heroVisual}
                 alt="Visualização abstrata de uma esfera de dados conectada"
