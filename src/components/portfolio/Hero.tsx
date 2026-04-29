@@ -63,7 +63,7 @@ export const Hero = () => {
           {/* Right — visual */}
           <div className="relative animate-fade-in">
             <div className="relative aspect-square max-w-[560px] mx-auto">
-              <div className="absolute inset-0 rounded-full bg-accent/10 blur-3xl animate-pulse-glow" />
+              <div className="absolute -inset-10 hero-glow pointer-events-none animate-pulse-glow" />
               <img
                 src={heroVisual}
                 alt="Visualização abstrata de uma esfera de dados conectada"
