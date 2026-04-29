@@ -14,7 +14,7 @@ const projects = [
   {
     img: p2,
     title: "Maison Atelier",
-    category: "Geração de Leads • UX/UI • Alta Performance",
+    category: "Geração de Leads • Wagtail • Alta Performance",
     metric: "3.2× conversão pós redesign",
     tags: ["Shopify Hydrogen", "Branding", "CRO"],
   },
