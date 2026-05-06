@@ -1,8 +1,8 @@
 const items = [
   {
-    quote: "O Alex entrega o que três pessoas entregariam. Site, marca e funil — tudo conectado.",
-    name: "Marina Costa",
-    role: "CEO, Northwind",
+    quote: "Profissional sério, ágil e competente. Total suporte em todos os serviços prestados. Recomendo de olho fechado!",
+    name: "Leonardo Lima",
+    role: "CEO, L&F Contábil",
   },
   {
     quote: "Em 90 dias dobramos o tráfego orgânico e a conversão. Trabalho cirúrgico.",
