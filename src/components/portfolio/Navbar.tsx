@@ -33,8 +33,18 @@ export const Navbar = () => {
           }`}
           aria-label="Navegação principal"
         >
-          <a href="#top" className="flex items-center gap-2 font-display font-semibold">
-            <img src={logoLt} alt="LT Branding & Tech" className="h-16 md:h-20 w-auto text-9xl object-fill" />
+          <a href="#top" className="flex items-center gap-3 font-display font-semibold leading-none">
+            <span className="text-4xl md:text-5xl font-bold tracking-tight bg-gradient-to-r from-blue-500 via-fuchsia-400 to-purple-500 bg-clip-text text-transparent">
+              LT
+            </span>
+            <span className="flex flex-col">
+              <span className="text-sm md:text-base tracking-wide text-foreground/90 font-light">
+                Branding &amp; Tech
+              </span>
+              <span className="text-[10px] md:text-xs tracking-[0.2em] text-purple-300 font-medium mt-0.5">
+                DESIGN • DEV • MARKETING
+              </span>
+            </span>
           </a>
 
           <ul className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
