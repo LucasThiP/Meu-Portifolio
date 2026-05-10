@@ -34,7 +34,7 @@ export const Navbar = () => {
           aria-label="Navegação principal"
         >
           <a href="#top" className="flex items-center gap-2 font-display font-semibold">
-            <img src={logoLt} alt="LT Branding & Tech" className="h-16 md:h-20 w-auto object-fill text-9xl" />
+            <img src={logoLt} alt="LT Branding & Tech" className="h-16 md:h-20 w-auto text-9xl object-fill" />
           </a>
 
           <ul className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
