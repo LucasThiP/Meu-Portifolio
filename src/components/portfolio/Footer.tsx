@@ -6,7 +6,7 @@ export const Footer = () => {
           <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-gradient-primary text-accent-foreground text-[10px]">
             LT
           </span>
-          <span>© {new Date().getFullYear()} Lucas Thibau. Todos os direitos reservados.</span>
+          <span>© {new Date().getFullYear()} LT Branding & Tech. Todos os direitos reservados.</span>
         </div>
         <div className="flex items-center gap-6">
           <a href="#" className="hover:text-foreground transition-colors">LinkedIn</a>
