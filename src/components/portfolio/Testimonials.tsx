@@ -7,12 +7,12 @@ const items = [
   {
     quote: "“Uma idéia que só tinha no papel, se tornou mais que uma realidade. Desde a identidade ao primeiro cliente tive total suporte",
     name: "Palloma F.",
-    role: "Psicóloga",
+    role: "CEO, Witch Lab",
   },
   {
     quote: "Raríssimo encontrar alguém com esse nível técnico e estético ao mesmo tempo.",
-    name: "Sofia Almeida",
-    role: "Founder, Maison Atelier",
+    name: "Palloma F.",
+    role: "Psicóloga",
   },
 ];
 

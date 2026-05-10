@@ -61,7 +61,7 @@ export const Navbar = () => {
           </ul>
 
           <Button asChild size="sm" variant="default" className="rounded-full border-neutral-100 opacity-100">
-            <a href="#contato">Vamos conversar</a>
+            <a href="#contato">Entrar em contato</a>
           </Button>
         </nav>
       </div>
