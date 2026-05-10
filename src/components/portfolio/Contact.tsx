@@ -39,7 +39,7 @@ export const Contact = () => {
               </a>
 
               <a
-                href="https://wa.me/5531982381046"
+                href="https://wa.me/5531982381046?utm_source=google&utm_medium=cpc&utm_campaign=portfolio_contato"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-between rounded-2xl border border-border bg-background/40 p-5 hover:bg-background/80 hover:border-accent/40 transition-all"
