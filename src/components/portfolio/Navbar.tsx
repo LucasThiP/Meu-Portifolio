@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
+import logoLt from "@/assets/logo-lt.png";
 
 const links = [
   { href: "#sobre", label: "Sobre" },
@@ -33,10 +34,7 @@ export const Navbar = () => {
           aria-label="Navegação principal"
         >
           <a href="#top" className="flex items-center gap-2 font-display font-semibold">
-            <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-gradient-primary text-accent-foreground text-xs">
-              LT
-            </span>
-            <span className="text-sm tracking-tight">Lucas Thibau</span>
+            <img src={logoLt} alt="LT Branding & Tech" className="h-8 w-auto" />
           </a>
 
           <ul className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
