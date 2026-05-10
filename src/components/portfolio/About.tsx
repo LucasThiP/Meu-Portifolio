@@ -18,7 +18,7 @@ export const About = () => {
               <br /><br />
               Ao longo da minha trajetória, trabalhei com diferentes empresas e startups, o que me permitiu desenvolver uma visão estratégica e prática sobre o digital.
               <br /><br />
-              Hoje, uno design, desenvolvimento e marketing para entregar soluções completas — com estética, funcionalidade e foco real em crescimento.
+              Hoje, uno design, desenvolvimento e marketing para entregar soluções completas, com estética, funcionalidade e foco real em crescimento.
             </p>
             <p className="font-sans font-bold text-white">
               Design que posiciona. Tecnologia que sustenta. Estratégia que cresce.

@@ -10,8 +10,9 @@ export const Footer = () => {
         </div>
         <div className="flex items-center gap-6">
           <a href="#" className="hover:text-foreground transition-colors">LinkedIn</a>
-          <a href="#" className="hover:text-foreground transition-colors">GitHub</a>
-          <a href="#" className="hover:text-foreground transition-colors">Dribbble</a>
+          <a href="https://github.com/LucasThiP" className="hover:text-foreground transition-colors">GitHub</a>
+          <a href="#" className="hover:text-foreground transition-colors">
+</a>
         </div>
       </div>
     </footer>
