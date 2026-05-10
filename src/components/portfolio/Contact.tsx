@@ -61,7 +61,11 @@ export const Contact = () => {
                 size="lg"
                 className="w-full rounded-2xl h-14 text-base bg-gradient-primary hover:opacity-90 shadow-glow"
               >
-                <a href="mailto:ltbrandingtech@gmail.com?subject=Novo%20projeto">
+                <a
+                  href="https://wa.me/5531982381046?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20iniciar%20um%20projeto&utm_source=google&utm_medium=cpc&utm_campaign=portfolio_iniciar_projeto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Iniciar um projeto
                   <ArrowRight className="ml-1 h-4 w-4" />
                 </a>
