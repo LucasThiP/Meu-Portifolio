@@ -24,7 +24,7 @@ const projects = [
     img: p3,
     title: "EM DESENVOLVIMENTO",
     category: "Task Manager · Mobile",
-    metric: "120k downloads no Q1",
+    metric: "DESENVOLVIMENTO",
     tags: ["React Native", "JavaScript", "Onboarding"],
     href: undefined as string | undefined,
   },
