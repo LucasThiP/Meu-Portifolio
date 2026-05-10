@@ -22,10 +22,10 @@ const projects = [
   },
   {
     img: p3,
-    title: "Pulse Finance",
-    category: "Fintech · Mobile",
+    title: "EM DESENVOLVIMENTO",
+    category: "Task Manager · Mobile",
     metric: "120k downloads no Q1",
-    tags: ["React Native", "Growth", "Onboarding"],
+    tags: ["React Native", "JavaScript", "Onboarding"],
     href: undefined as string | undefined,
   },
 ];

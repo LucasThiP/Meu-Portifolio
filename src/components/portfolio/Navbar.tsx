@@ -28,7 +28,7 @@ export const Navbar = () => {
     >
       <div className="container">
         <nav
-          className={`flex items-center justify-between rounded-full px-5 py-2.5 transition-all duration-500 ${
+          className={`flex items-center justify-between rounded-full px-5 py-2.5 transition-all duration-500 border-gray-900 ${
             scrolled ? "glass shadow-soft" : "bg-transparent"
           }`}
           aria-label="Navegação principal"

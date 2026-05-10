@@ -68,7 +68,7 @@ export const Contact = () => {
               </Button>
 
               <p className="text-xs text-muted-foreground text-center pt-2">
-                Resposta em até 24 horas · Projetos a partir de 03 dias
+                Resposta em até 24 horas · Projetos a partir de 02 dias
               </p>
             </div>
           </div>
