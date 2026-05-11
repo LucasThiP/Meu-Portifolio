@@ -18,7 +18,7 @@ const projects = [
     category: "E-commerce • UX/UI • Desenvolvimento",
     metric: "Otimizado para aumentar conversão e vendas",
     tags: ["Python & Django", "Branding", "CRO"],
-    href: "https://witchlabstore.com.br/produtos/caneca-teste/",
+    href: "https://witchlabstore.com.br/",
   },
   {
     img: p3,
