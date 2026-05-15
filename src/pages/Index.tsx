@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
 import { About } from "@/components/portfolio/About";
@@ -12,6 +13,9 @@ import { Footer } from "@/components/portfolio/Footer";
 const Index = () => {
   return (
     <main className="min-h-screen">
+      <Helmet>
+        <link rel="canonical" href="https://ltbrandingtech.com.br/" />
+      </Helmet>
       <Navbar />
       <Hero />
       <About />
