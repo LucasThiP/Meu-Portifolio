@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 const NotFound = () => {
   const location = useLocation();
@@ -9,15 +10,26 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-muted">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">404</h1>
-        <p className="mb-4 text-xl text-muted-foreground">Oops! Page not found</p>
-        <a href="/" className="text-primary underline hover:text-primary/90">
-          Return to Home
-        </a>
+    <>
+      <Helmet>
+        <title>Página não encontrada (404) — Lucas Thibau</title>
+        <meta name="description" content="A página que você procura não existe. Volte para o portfólio de Lucas Thibau." />
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="https://ltbrandingtech.com.br/404" />
+        <meta property="og:title" content="Página não encontrada (404) — Lucas Thibau" />
+        <meta property="og:description" content="A página que você procura não existe." />
+        <meta property="og:url" content="https://ltbrandingtech.com.br/404" />
+      </Helmet>
+      <div className="flex min-h-screen items-center justify-center bg-muted">
+        <div className="text-center">
+          <h1 className="mb-4 text-4xl font-bold">404</h1>
+          <p className="mb-4 text-xl text-foreground">Oops! Página não encontrada</p>
+          <a href="/" className="text-primary underline hover:text-primary/90">
+            Voltar para o início
+          </a>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
