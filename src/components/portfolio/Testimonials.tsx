@@ -6,12 +6,12 @@ const items = [
   },
   {
     quote: "“Uma idéia que só tinha no papel, se tornou mais que uma realidade. Desde a identidade ao primeiro cliente tive total suporte",
-    name: "Palloma T.",
+    name: "Léia Vitor",
     role: "CEO, Witch Lab",
   },
   {
     quote: "Raríssimo encontrar alguém com esse nível técnico e estético ao mesmo tempo.",
-    name: "Palloma T.",
+    name: "Léia Vitor",
     role: "Psicóloga",
   },
 ];
