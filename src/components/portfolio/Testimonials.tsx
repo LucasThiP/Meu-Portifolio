@@ -11,7 +11,7 @@ const items = [
   },
   {
     quote: "Raríssimo encontrar alguém com esse nível técnico e estético ao mesmo tempo.",
-    name: "Léia Vitor",
+    name: "Palloma T.",
     role: "Psicóloga",
   },
 ];
