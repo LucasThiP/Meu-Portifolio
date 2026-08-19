@@ -1,7 +1,8 @@
 import { ArrowUpRight } from "lucide-react";
 import p1 from "@/assets/project-contabil.png";
 import p2 from "@/assets/project-witch.png";
-import p3 from "@/assets/project-3.jpg";
+import p3 from "@/assets/project-gravifilms.png";
+import p4 from "@/assets/project-3.jpg";
 
 const projects = [
   {
@@ -22,6 +23,14 @@ const projects = [
   },
   {
     img: p3,
+    title: "GRAVI FILMS",
+    category: "Site Institucional • UX/UI • Audiovisual",
+    metric: "Identidade cinematográfica com foco em conversão",
+    tags: ["Web Design", "Branding", "UX/UI"],
+    href: "https://gravifilms.com.br/",
+  },
+  {
+    img: p4,
     title: "EM DESENVOLVIMENTO",
     category: "Task Manager · Mobile",
     metric: "DESENVOLVIMENTO",
